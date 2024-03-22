@@ -2,8 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import Login from "./src/views/Login";
-import { Home } from "./src/views/Home";
+import Login from "./src/views/Login/Login";
+import { Home } from "./src/views/Home/Home";
 import { Carrera1 } from "./src/views/carrera1";
 import { Carrera2 } from "./src/views/carrera2";
 

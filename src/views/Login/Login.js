@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Image } from "react-native";
-import CustomTextInput from "../components/InputField";
-import CustomButton from "../components/customButton";
+import CustomTextInput from "../../components/InputField";
+import CustomButton from "../../components/customButton";
 
 const Login = ({ navigation }) => {
   const handleLogin = () => {
@@ -10,7 +10,7 @@ const Login = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require("../../assets/logo-appescolar1.jpeg")} />
+      <Image style={styles.image} source={require("../../../assets/logo-appescolar1.jpeg")} />
       <CustomTextInput placeholder={"Usuarios"} />
       <CustomTextInput placeholder={"Contraseña"} />
       <CustomButton title={"Login"} onPress={handleLogin} />

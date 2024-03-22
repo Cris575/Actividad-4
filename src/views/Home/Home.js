@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import CustomButton from "../components/customButton";
+import CustomButton from "../../components/customButton";
 
 export const Home = ({ navigation }) => {
   const handleCarera1 = () => {
