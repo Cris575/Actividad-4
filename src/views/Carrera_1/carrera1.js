@@ -1,30 +1,30 @@
 import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
-import Item from "../components/item";
+import Item from "../../components/item";
 
-export const Carrera2 = () => {
+export const Carrera1 = () => {
   const DATA = [
     {
-      materia: "Matemáticas",
+      materia: "Programación",
     },
     {
-      materia: "Ciencias Naturales",
+      materia: "Diseño Gráfico",
     },
     {
-      materia: "Lengua y Literatura",
+      materia: "Economía",
     },
     {
-      materia: "Historia",
+      materia: "Psicología",
     },
     {
-      materia: "Geografía",
+      materia: "Inglés Avanzado",
     },
   ];
 
   return (
     <View>
-      <Text style={styles.text}>Materias de la carrera 2</Text>
+      <Text style={styles.text}>Materias de la carrera 1</Text>
       <FlatList data={DATA} renderItem={({ item }) => <Item title={item.materia} />} />
     </View>
   );

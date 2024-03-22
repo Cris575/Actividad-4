@@ -4,8 +4,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import Login from "./src/views/Login/Login";
 import { Home } from "./src/views/Home/Home";
-import { Carrera1 } from "./src/views/carrera1";
-import { Carrera2 } from "./src/views/carrera2";
+import { Carrera1 } from "./src/views/Carrera_1/carrera1";
+import { Carrera2 } from "./src/views/Carrera_2/carrera2";
 
 export default function App() {
   const Stack = createStackNavigator();
